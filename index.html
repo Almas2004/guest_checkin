@@ -7,7 +7,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.3/xlsx.full.min.js"></script>
     <script>
         async function readExcelFile() {
-            const fileUrl = 'guests.xlsx'; // Убедитесь, что путь к файлу правильный
+            const fileUrl = 'Список.xlsx'; // Убедитесь, что путь к файлу правильный
             const response = await fetch(fileUrl);
             const arrayBuffer = await response.arrayBuffer();
             const data = new Uint8Array(arrayBuffer);
